@@ -2,4 +2,5 @@
     <string name="app_name">PlacarApp</string>
     <string name="label_titulo">Times</string>
     <string name="label_deselvolvido_por_arpl">Deselvolvido por ARPL</string>
+    <string name="placar_inicial">0</string>
 </resources>

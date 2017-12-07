@@ -16,19 +16,49 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/cabecalhoPlacar"
             android:id="@+id/tvTimeCasa"
-            android:layout_weight="0.5"
-            android:gravity="center"
             android:text="TIMECASA"/>
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/cabecalhoPlacar"
             android:id="@+id/tvTimeVisitante"
-            android:layout_weight="0.5"
-            android:gravity="center"
             android:text="TIMEVISITANTE"/>
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/placar"
+            android:id="@+id/tvPlacarCasa"
+            />
+
+        <TextView
+            style="@style/placar"
+            android:id="@+id/tvPlacarVisitante"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            style="@style/botaoPlacar"
+            android:id="@+id/btGolcasa"
+            android:onClick="golCasa"
+            tools:text="GOLCASA"
+            />
+
+        <Button
+            style="@style/botaoPlacar"
+            android:id="@+id/btGolvisitante"
+            android:onClick="golVisitante"
+            tools:text="GOLVISITANTE"
+            />
 
     </LinearLayout>
 
