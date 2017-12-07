@@ -25,7 +25,7 @@
     </style>
 
     <style name="botaoPlacar" parent="padrao">
-        <item name="android:text">GOL</item>
+        <item name="android:text">@string/label_gol</item>
         <item name="android:textSize">40sp</item>
     </style>
 
